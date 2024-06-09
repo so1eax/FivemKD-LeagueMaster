@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    overflow: hidden;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 1.5%;
+    top: 3%;
+    width: fit-content;
+    padding: 10px;
+    height: 20px;
+    background-color: #2c3e50;
+    border-radius: 3px;
+}
+
+#killsIcon, #deathsIcon, #kdIcon, #leagueIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+#killsIcon{
+    color: #28a745;
+}
+
+#deathsIcon{
+    color: #dc3545;
+}
+
+#kdIcon{
+    color: #007bff;
+}
+
+#leagueIcon{
+    color: #ffc107;
+}
+
+#kills, #deaths, #kd, #league{
+    padding-left: 5px;
+    padding-right: 15px;
+    color: #ecf0f1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
