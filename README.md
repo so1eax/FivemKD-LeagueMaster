@@ -52,8 +52,7 @@ Config.Leagues = { -- You can change the number of points required for each leag
     {name = "Grandmaster", pointsRequired = 7000},
 }
 
--- You can enable / disable commands by setting the `enableCommand` to true / false, and change their names with the `commandName`
-Config.Commands = {
+Config.Commands = { -- You can enable / disable commands by setting the `enableCommand` to true / false, and change their names with the `commandName`
     resetKd = {
         enableCommand = true,
         commandName = "resetkd"
