@@ -28,7 +28,7 @@
 4. **Add to server.cfg**: Add the following line to your `server.cfg` file to ensure the resource starts with your server:
    \`\`\`
    start oxmysql
-   start Heimel_JumpLimit
+   start s1_ksys
    \`\`\`
 
 5. **Configure the Script**: Open the `config.lua` file and customize the configuration options to suit your server's needs.
