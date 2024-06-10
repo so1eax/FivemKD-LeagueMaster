@@ -85,6 +85,21 @@ Config.Hud = {
 }
 \`\`\`
 
+## Exports
+
+-- Client
+- `exports.s1_kdsys:GetPlayerData()`
+- `exports.s1_kdsys:GetPlayerKd()`
+- `exports.s1_kdsys:GetPlayerLeague()`
+
+-- Server
+- `exports.s1_kdsys:GetPlayerData(playerServerId)`
+- `exports.s1_kdsys:GetPlayerKd(playerServerId)`
+- `exports.s1_kdsys:GetPlayerLeague(playerServerId)`
+
+For the `GetPlayerData()` you can get the `player Unique ID` = .id, `player Identifier` = .identifier, `player Username` = .username, `player Kills` = .kills and the `player Deaths` = .deaths. To use these juste do like this : exports.s1_kdsys:GetPlayerData().id or exports.s1_kdsys:GetPlayerData(playerServerId).id for server exports.
+
+
 ## Support
 
 For support and suggestions, feel free to reach out on the Cfx.re forum thread or in my Discord DM (so1eaxx). Contributions and feedback are always welcome!
