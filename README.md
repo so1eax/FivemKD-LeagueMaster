@@ -1,7 +1,7 @@
 
-# s1_leagueSystem
+# s1_kdsys
 
-**s1_leagueSystem** is a versatile and easy-to-configure script designed to enhance your server by tracking and displaying player kill/death ratios in real time. Perfect for roleplay and competitive servers.
+**s1_kdsys** is a versatile and easy-to-configure script designed to enhance your server by tracking and displaying player kill/death ratios in real time. Perfect for roleplay and competitive servers.
 
 ## Features
 
